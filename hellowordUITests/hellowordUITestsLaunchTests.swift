@@ -1,13 +1,13 @@
 //
-//  sumaUITestsLaunchTests.swift
-//  sumaUITests
+//  hellowordUITestsLaunchTests.swift
+//  hellowordUITests
 //
-//  Created by sumasoft on 17/04/23.
+//  Created by sumasoft on 18/04/23.
 //
 
 import XCTest
 
-final class sumaUITestsLaunchTests: XCTestCase {
+final class hellowordUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

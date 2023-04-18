@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		449A278F29ED4BFB00A726E6 /* sumaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A278E29ED4BFB00A726E6 /* sumaApp.swift */; };
-		449A279129ED4BFB00A726E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A279029ED4BFB00A726E6 /* ContentView.swift */; };
-		449A279329ED4BFD00A726E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449A279229ED4BFD00A726E6 /* Assets.xcassets */; };
-		449A279629ED4BFD00A726E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449A279529ED4BFD00A726E6 /* Preview Assets.xcassets */; };
-		449A27A029ED4BFD00A726E6 /* sumaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A279F29ED4BFD00A726E6 /* sumaTests.swift */; };
-		449A27AA29ED4BFD00A726E6 /* sumaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A27A929ED4BFD00A726E6 /* sumaUITests.swift */; };
-		449A27AC29ED4BFD00A726E6 /* sumaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A27AB29ED4BFD00A726E6 /* sumaUITestsLaunchTests.swift */; };
+		44E5773A29EEADDC00D88A90 /* hellowordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5773929EEADDC00D88A90 /* hellowordApp.swift */; };
+		44E5773C29EEADDC00D88A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5773B29EEADDC00D88A90 /* ContentView.swift */; };
+		44E5773E29EEADDD00D88A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E5773D29EEADDD00D88A90 /* Assets.xcassets */; };
+		44E5774129EEADDD00D88A90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E5774029EEADDD00D88A90 /* Preview Assets.xcassets */; };
+		44E5774B29EEADDE00D88A90 /* hellowordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5774A29EEADDE00D88A90 /* hellowordTests.swift */; };
+		44E5775529EEADDE00D88A90 /* hellowordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5775429EEADDE00D88A90 /* hellowordUITests.swift */; };
+		44E5775729EEADDE00D88A90 /* hellowordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E5775629EEADDE00D88A90 /* hellowordUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		449A279C29ED4BFD00A726E6 /* PBXContainerItemProxy */ = {
+		44E5774729EEADDE00D88A90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 449A278329ED4BFB00A726E6 /* Project object */;
+			containerPortal = 44E5772E29EEADDC00D88A90 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 449A278A29ED4BFB00A726E6;
-			remoteInfo = suma;
+			remoteGlobalIDString = 44E5773529EEADDC00D88A90;
+			remoteInfo = helloword;
 		};
-		449A27A629ED4BFD00A726E6 /* PBXContainerItemProxy */ = {
+		44E5775129EEADDE00D88A90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 449A278329ED4BFB00A726E6 /* Project object */;
+			containerPortal = 44E5772E29EEADDC00D88A90 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 449A278A29ED4BFB00A726E6;
-			remoteInfo = suma;
+			remoteGlobalIDString = 44E5773529EEADDC00D88A90;
+			remoteInfo = helloword;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		449A278B29ED4BFB00A726E6 /* suma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suma.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		449A278E29ED4BFB00A726E6 /* sumaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumaApp.swift; sourceTree = "<group>"; };
-		449A279029ED4BFB00A726E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		449A279229ED4BFD00A726E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		449A279529ED4BFD00A726E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		449A279B29ED4BFD00A726E6 /* sumaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sumaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		449A279F29ED4BFD00A726E6 /* sumaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumaTests.swift; sourceTree = "<group>"; };
-		449A27A529ED4BFD00A726E6 /* sumaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sumaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		449A27A929ED4BFD00A726E6 /* sumaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumaUITests.swift; sourceTree = "<group>"; };
-		449A27AB29ED4BFD00A726E6 /* sumaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44E5773629EEADDC00D88A90 /* helloword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E5773929EEADDC00D88A90 /* hellowordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellowordApp.swift; sourceTree = "<group>"; };
+		44E5773B29EEADDC00D88A90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44E5773D29EEADDD00D88A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44E5774029EEADDD00D88A90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44E5774629EEADDE00D88A90 /* hellowordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellowordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E5774A29EEADDE00D88A90 /* hellowordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellowordTests.swift; sourceTree = "<group>"; };
+		44E5775029EEADDE00D88A90 /* hellowordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellowordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E5775429EEADDE00D88A90 /* hellowordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellowordUITests.swift; sourceTree = "<group>"; };
+		44E5775629EEADDE00D88A90 /* hellowordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellowordUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		449A278829ED4BFB00A726E6 /* Frameworks */ = {
+		44E5773329EEADDC00D88A90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		449A279829ED4BFD00A726E6 /* Frameworks */ = {
+		44E5774329EEADDE00D88A90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		449A27A229ED4BFD00A726E6 /* Frameworks */ = {
+		44E5774D29EEADDE00D88A90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,142 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		449A278229ED4BFB00A726E6 = {
+		44E5772D29EEADDC00D88A90 = {
 			isa = PBXGroup;
 			children = (
-				449A278D29ED4BFB00A726E6 /* suma */,
-				449A279E29ED4BFD00A726E6 /* sumaTests */,
-				449A27A829ED4BFD00A726E6 /* sumaUITests */,
-				449A278C29ED4BFB00A726E6 /* Products */,
+				44E5773829EEADDC00D88A90 /* helloword */,
+				44E5774929EEADDE00D88A90 /* hellowordTests */,
+				44E5775329EEADDE00D88A90 /* hellowordUITests */,
+				44E5773729EEADDC00D88A90 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		449A278C29ED4BFB00A726E6 /* Products */ = {
+		44E5773729EEADDC00D88A90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				449A278B29ED4BFB00A726E6 /* suma.app */,
-				449A279B29ED4BFD00A726E6 /* sumaTests.xctest */,
-				449A27A529ED4BFD00A726E6 /* sumaUITests.xctest */,
+				44E5773629EEADDC00D88A90 /* helloword.app */,
+				44E5774629EEADDE00D88A90 /* hellowordTests.xctest */,
+				44E5775029EEADDE00D88A90 /* hellowordUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		449A278D29ED4BFB00A726E6 /* suma */ = {
+		44E5773829EEADDC00D88A90 /* helloword */ = {
 			isa = PBXGroup;
 			children = (
-				449A278E29ED4BFB00A726E6 /* sumaApp.swift */,
-				449A279029ED4BFB00A726E6 /* ContentView.swift */,
-				449A279229ED4BFD00A726E6 /* Assets.xcassets */,
-				449A279429ED4BFD00A726E6 /* Preview Content */,
+				44E5773929EEADDC00D88A90 /* hellowordApp.swift */,
+				44E5773B29EEADDC00D88A90 /* ContentView.swift */,
+				44E5773D29EEADDD00D88A90 /* Assets.xcassets */,
+				44E5773F29EEADDD00D88A90 /* Preview Content */,
 			);
-			path = suma;
+			path = helloword;
 			sourceTree = "<group>";
 		};
-		449A279429ED4BFD00A726E6 /* Preview Content */ = {
+		44E5773F29EEADDD00D88A90 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				449A279529ED4BFD00A726E6 /* Preview Assets.xcassets */,
+				44E5774029EEADDD00D88A90 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		449A279E29ED4BFD00A726E6 /* sumaTests */ = {
+		44E5774929EEADDE00D88A90 /* hellowordTests */ = {
 			isa = PBXGroup;
 			children = (
-				449A279F29ED4BFD00A726E6 /* sumaTests.swift */,
+				44E5774A29EEADDE00D88A90 /* hellowordTests.swift */,
 			);
-			path = sumaTests;
+			path = hellowordTests;
 			sourceTree = "<group>";
 		};
-		449A27A829ED4BFD00A726E6 /* sumaUITests */ = {
+		44E5775329EEADDE00D88A90 /* hellowordUITests */ = {
 			isa = PBXGroup;
 			children = (
-				449A27A929ED4BFD00A726E6 /* sumaUITests.swift */,
-				449A27AB29ED4BFD00A726E6 /* sumaUITestsLaunchTests.swift */,
+				44E5775429EEADDE00D88A90 /* hellowordUITests.swift */,
+				44E5775629EEADDE00D88A90 /* hellowordUITestsLaunchTests.swift */,
 			);
-			path = sumaUITests;
+			path = hellowordUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		449A278A29ED4BFB00A726E6 /* suma */ = {
+		44E5773529EEADDC00D88A90 /* helloword */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 449A27AF29ED4BFD00A726E6 /* Build configuration list for PBXNativeTarget "suma" */;
+			buildConfigurationList = 44E5775A29EEADDE00D88A90 /* Build configuration list for PBXNativeTarget "helloword" */;
 			buildPhases = (
-				449A278729ED4BFB00A726E6 /* Sources */,
-				449A278829ED4BFB00A726E6 /* Frameworks */,
-				449A278929ED4BFB00A726E6 /* Resources */,
+				44E5773229EEADDC00D88A90 /* Sources */,
+				44E5773329EEADDC00D88A90 /* Frameworks */,
+				44E5773429EEADDC00D88A90 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = suma;
-			productName = suma;
-			productReference = 449A278B29ED4BFB00A726E6 /* suma.app */;
+			name = helloword;
+			productName = helloword;
+			productReference = 44E5773629EEADDC00D88A90 /* helloword.app */;
 			productType = "com.apple.product-type.application";
 		};
-		449A279A29ED4BFD00A726E6 /* sumaTests */ = {
+		44E5774529EEADDE00D88A90 /* hellowordTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 449A27B229ED4BFD00A726E6 /* Build configuration list for PBXNativeTarget "sumaTests" */;
+			buildConfigurationList = 44E5775D29EEADDE00D88A90 /* Build configuration list for PBXNativeTarget "hellowordTests" */;
 			buildPhases = (
-				449A279729ED4BFD00A726E6 /* Sources */,
-				449A279829ED4BFD00A726E6 /* Frameworks */,
-				449A279929ED4BFD00A726E6 /* Resources */,
+				44E5774229EEADDE00D88A90 /* Sources */,
+				44E5774329EEADDE00D88A90 /* Frameworks */,
+				44E5774429EEADDE00D88A90 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				449A279D29ED4BFD00A726E6 /* PBXTargetDependency */,
+				44E5774829EEADDE00D88A90 /* PBXTargetDependency */,
 			);
-			name = sumaTests;
-			productName = sumaTests;
-			productReference = 449A279B29ED4BFD00A726E6 /* sumaTests.xctest */;
+			name = hellowordTests;
+			productName = hellowordTests;
+			productReference = 44E5774629EEADDE00D88A90 /* hellowordTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		449A27A429ED4BFD00A726E6 /* sumaUITests */ = {
+		44E5774F29EEADDE00D88A90 /* hellowordUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 449A27B529ED4BFD00A726E6 /* Build configuration list for PBXNativeTarget "sumaUITests" */;
+			buildConfigurationList = 44E5776029EEADDE00D88A90 /* Build configuration list for PBXNativeTarget "hellowordUITests" */;
 			buildPhases = (
-				449A27A129ED4BFD00A726E6 /* Sources */,
-				449A27A229ED4BFD00A726E6 /* Frameworks */,
-				449A27A329ED4BFD00A726E6 /* Resources */,
+				44E5774C29EEADDE00D88A90 /* Sources */,
+				44E5774D29EEADDE00D88A90 /* Frameworks */,
+				44E5774E29EEADDE00D88A90 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				449A27A729ED4BFD00A726E6 /* PBXTargetDependency */,
+				44E5775229EEADDE00D88A90 /* PBXTargetDependency */,
 			);
-			name = sumaUITests;
-			productName = sumaUITests;
-			productReference = 449A27A529ED4BFD00A726E6 /* sumaUITests.xctest */;
+			name = hellowordUITests;
+			productName = hellowordUITests;
+			productReference = 44E5775029EEADDE00D88A90 /* hellowordUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		449A278329ED4BFB00A726E6 /* Project object */ = {
+		44E5772E29EEADDC00D88A90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					449A278A29ED4BFB00A726E6 = {
+					44E5773529EEADDC00D88A90 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					449A279A29ED4BFD00A726E6 = {
+					44E5774529EEADDE00D88A90 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 449A278A29ED4BFB00A726E6;
+						TestTargetID = 44E5773529EEADDC00D88A90;
 					};
-					449A27A429ED4BFD00A726E6 = {
+					44E5774F29EEADDE00D88A90 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 449A278A29ED4BFB00A726E6;
+						TestTargetID = 44E5773529EEADDC00D88A90;
 					};
 				};
 			};
-			buildConfigurationList = 449A278629ED4BFB00A726E6 /* Build configuration list for PBXProject "suma" */;
+			buildConfigurationList = 44E5773129EEADDC00D88A90 /* Build configuration list for PBXProject "helloword" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 449A278229ED4BFB00A726E6;
-			productRefGroup = 449A278C29ED4BFB00A726E6 /* Products */;
+			mainGroup = 44E5772D29EEADDC00D88A90;
+			productRefGroup = 44E5773729EEADDC00D88A90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				449A278A29ED4BFB00A726E6 /* suma */,
-				449A279A29ED4BFD00A726E6 /* sumaTests */,
-				449A27A429ED4BFD00A726E6 /* sumaUITests */,
+				44E5773529EEADDC00D88A90 /* helloword */,
+				44E5774529EEADDE00D88A90 /* hellowordTests */,
+				44E5774F29EEADDE00D88A90 /* hellowordUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		449A278929ED4BFB00A726E6 /* Resources */ = {
+		44E5773429EEADDC00D88A90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449A279629ED4BFD00A726E6 /* Preview Assets.xcassets in Resources */,
-				449A279329ED4BFD00A726E6 /* Assets.xcassets in Resources */,
+				44E5774129EEADDD00D88A90 /* Preview Assets.xcassets in Resources */,
+				44E5773E29EEADDD00D88A90 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		449A279929ED4BFD00A726E6 /* Resources */ = {
+		44E5774429EEADDE00D88A90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		449A27A329ED4BFD00A726E6 /* Resources */ = {
+		44E5774E29EEADDE00D88A90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		449A278729ED4BFB00A726E6 /* Sources */ = {
+		44E5773229EEADDC00D88A90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449A279129ED4BFB00A726E6 /* ContentView.swift in Sources */,
-				449A278F29ED4BFB00A726E6 /* sumaApp.swift in Sources */,
+				44E5773C29EEADDC00D88A90 /* ContentView.swift in Sources */,
+				44E5773A29EEADDC00D88A90 /* hellowordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		449A279729ED4BFD00A726E6 /* Sources */ = {
+		44E5774229EEADDE00D88A90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449A27A029ED4BFD00A726E6 /* sumaTests.swift in Sources */,
+				44E5774B29EEADDE00D88A90 /* hellowordTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		449A27A129ED4BFD00A726E6 /* Sources */ = {
+		44E5774C29EEADDE00D88A90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449A27AC29ED4BFD00A726E6 /* sumaUITestsLaunchTests.swift in Sources */,
-				449A27AA29ED4BFD00A726E6 /* sumaUITests.swift in Sources */,
+				44E5775529EEADDE00D88A90 /* hellowordUITests.swift in Sources */,
+				44E5775729EEADDE00D88A90 /* hellowordUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		449A279D29ED4BFD00A726E6 /* PBXTargetDependency */ = {
+		44E5774829EEADDE00D88A90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 449A278A29ED4BFB00A726E6 /* suma */;
-			targetProxy = 449A279C29ED4BFD00A726E6 /* PBXContainerItemProxy */;
+			target = 44E5773529EEADDC00D88A90 /* helloword */;
+			targetProxy = 44E5774729EEADDE00D88A90 /* PBXContainerItemProxy */;
 		};
-		449A27A729ED4BFD00A726E6 /* PBXTargetDependency */ = {
+		44E5775229EEADDE00D88A90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 449A278A29ED4BFB00A726E6 /* suma */;
-			targetProxy = 449A27A629ED4BFD00A726E6 /* PBXContainerItemProxy */;
+			target = 44E5773529EEADDC00D88A90 /* helloword */;
+			targetProxy = 44E5775129EEADDE00D88A90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		449A27AD29ED4BFD00A726E6 /* Debug */ = {
+		44E5775829EEADDE00D88A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		449A27AE29ED4BFD00A726E6 /* Release */ = {
+		44E5775929EEADDE00D88A90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,14 +409,14 @@
 			};
 			name = Release;
 		};
-		449A27B029ED4BFD00A726E6 /* Debug */ = {
+		44E5775B29EEADDE00D88A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"suma/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"helloword/Preview Content\"";
 				DEVELOPMENT_TEAM = DUC3M273M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -430,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins.suma;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,14 +438,14 @@
 			};
 			name = Debug;
 		};
-		449A27B129ED4BFD00A726E6 /* Release */ = {
+		44E5775C29EEADDE00D88A90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"suma/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"helloword/Preview Content\"";
 				DEVELOPMENT_TEAM = DUC3M273M2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins.suma;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -467,122 +467,122 @@
 			};
 			name = Release;
 		};
-		449A27B329ED4BFD00A726E6 /* Debug */ = {
+		44E5775E29EEADDE00D88A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DUC3M273M2;
+				DEVELOPMENT_TEAM = GG7776593L;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins.sumaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins.hellowordTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/suma";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/helloword.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/helloword";
 			};
 			name = Debug;
 		};
-		449A27B429ED4BFD00A726E6 /* Release */ = {
+		44E5775F29EEADDE00D88A90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DUC3M273M2;
+				DEVELOPMENT_TEAM = GG7776593L;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins.sumaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins.hellowordTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/suma";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/helloword.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/helloword";
 			};
 			name = Release;
 		};
-		449A27B629ED4BFD00A726E6 /* Debug */ = {
+		44E5776129EEADDE00D88A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DUC3M273M2;
+				DEVELOPMENT_TEAM = GG7776593L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins.sumaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins.hellowordUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = suma;
+				TEST_TARGET_NAME = helloword;
 			};
 			name = Debug;
 		};
-		449A27B729ED4BFD00A726E6 /* Release */ = {
+		44E5776229EEADDE00D88A90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DUC3M273M2;
+				DEVELOPMENT_TEAM = GG7776593L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins.sumaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumasoft.jenkins.hellowordUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = suma;
+				TEST_TARGET_NAME = helloword;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		449A278629ED4BFB00A726E6 /* Build configuration list for PBXProject "suma" */ = {
+		44E5773129EEADDC00D88A90 /* Build configuration list for PBXProject "helloword" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				449A27AD29ED4BFD00A726E6 /* Debug */,
-				449A27AE29ED4BFD00A726E6 /* Release */,
+				44E5775829EEADDE00D88A90 /* Debug */,
+				44E5775929EEADDE00D88A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		449A27AF29ED4BFD00A726E6 /* Build configuration list for PBXNativeTarget "suma" */ = {
+		44E5775A29EEADDE00D88A90 /* Build configuration list for PBXNativeTarget "helloword" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				449A27B029ED4BFD00A726E6 /* Debug */,
-				449A27B129ED4BFD00A726E6 /* Release */,
+				44E5775B29EEADDE00D88A90 /* Debug */,
+				44E5775C29EEADDE00D88A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		449A27B229ED4BFD00A726E6 /* Build configuration list for PBXNativeTarget "sumaTests" */ = {
+		44E5775D29EEADDE00D88A90 /* Build configuration list for PBXNativeTarget "hellowordTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				449A27B329ED4BFD00A726E6 /* Debug */,
-				449A27B429ED4BFD00A726E6 /* Release */,
+				44E5775E29EEADDE00D88A90 /* Debug */,
+				44E5775F29EEADDE00D88A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		449A27B529ED4BFD00A726E6 /* Build configuration list for PBXNativeTarget "sumaUITests" */ = {
+		44E5776029EEADDE00D88A90 /* Build configuration list for PBXNativeTarget "hellowordUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				449A27B629ED4BFD00A726E6 /* Debug */,
-				449A27B729ED4BFD00A726E6 /* Release */,
+				44E5776129EEADDE00D88A90 /* Debug */,
+				44E5776229EEADDE00D88A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 449A278329ED4BFB00A726E6 /* Project object */;
+	rootObject = 44E5772E29EEADDC00D88A90 /* Project object */;
 }

@@ -1,14 +1,14 @@
 //
-//  sumaApp.swift
-//  suma
+//  hellowordApp.swift
+//  helloword
 //
-//  Created by sumasoft on 17/04/23.
+//  Created by sumasoft on 18/04/23.
 //
 
 import SwiftUI
 
 @main
-struct sumaApp: App {
+struct hellowordApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

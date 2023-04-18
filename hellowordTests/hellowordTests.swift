@@ -1,14 +1,14 @@
 //
-//  sumaTests.swift
-//  sumaTests
+//  hellowordTests.swift
+//  hellowordTests
 //
-//  Created by sumasoft on 17/04/23.
+//  Created by sumasoft on 18/04/23.
 //
 
 import XCTest
-@testable import suma
+@testable import helloword
 
-final class sumaTests: XCTestCase {
+final class hellowordTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
